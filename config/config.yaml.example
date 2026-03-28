@@ -1,0 +1,7 @@
+splunk:
+  host: "https://your-splunk-host:8089"
+  token: "YOUR_SPLUNK_TOKEN"
+alerts:
+  slack_webhook: "https://hooks.slack.com/services/YOUR/URL"
+poll_interval_seconds: 300
+dedup_ttl_minutes: 30
