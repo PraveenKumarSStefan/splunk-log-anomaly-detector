@@ -3,5 +3,6 @@ splunk:
   token: "YOUR_SPLUNK_TOKEN"
 alerts:
   slack_webhook: "https://hooks.slack.com/services/YOUR/URL"
+  slack_channel: "#log-anomalies"
 poll_interval_seconds: 300
 dedup_ttl_minutes: 30
